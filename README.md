@@ -3,18 +3,18 @@
 
 # Example
 ```flake
-type Cat {
-	fish: Int
-}
+import std::io
 
-impl Cat {
-	fn get_fish(self: Cat) -> Int {
-		 return self.fish 
-	}
+type Cat {
+  fish: I16,
+  health: F32,
+} impl {
+  fn get_fish(cat: Cat) -> Int {
+    return cat.fish 
+  }
 }
 
 fn main() {
-	let cat = Cat { food: 34 }
 	io.println(cat.get_fish().to_string())
 }
 ```
