@@ -19,6 +19,6 @@ impl {
 }
 
 fn main() {
-	io.println(cat.get_fish().to_string())
+  io.println(cat.get_fish().to_string())
 }
 ```
