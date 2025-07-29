@@ -6,11 +6,15 @@
 import std::io
 
 type Cat {
-  fish: I16,
-  health: F32,
-} impl {
-  fn get_fish(cat: Cat) -> Int {
+  fish: i16,
+  health: f32,
+}
+impl {
+  fn get_fish() -> i16 {
     return cat.fish 
+  }
+  fn get_health() -> f32 {
+    return cat.health
   }
 }
 
